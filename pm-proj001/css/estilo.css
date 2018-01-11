@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 body{
@@ -16,7 +16,7 @@ h1, h2 {
 }
 
 h2{
-    
+
     text-transform: uppercase;
     font-size: 16px;
     margin-bottom: 12px;
