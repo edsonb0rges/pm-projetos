@@ -140,6 +140,62 @@ section#depoimento p {
   padding-left: 120px;
 }
 
+section#convite{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(./images/fundo-convite.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section#convite .container {
+  flex-direction: column;
+  align-items: center;
+}
+
+section#convite form {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 10px;
+  width: 60%;
+  border-radius: 3px;
+  display: flex;
+}
+
+section#convite input {
+  padding: 30px;
+  width: 75%;
+  background-color: transparent;
+  border: none;
+}
+
+section#convite button {
+  background-image: url(./images/botao-convite.png);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  width: 120px;
+  height: 43px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+section#convite button span {
+  visibility: hidden;
+}
+
+footer {
+  background-color: #2a0157;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 3px;
+}
+
+footer .container {
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+}
 
 
 @media (max-width: 600px) {
@@ -150,4 +206,28 @@ section#depoimento p {
   header h1 {
     margin-left: 20px;
   }
+
+  section#topo {
+    padding: 20px;
+  }
+
+  section#conheca .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#conheca .container .texto {
+    padding: 10px;
+  }
+
+  section#conheca .container .texto a {
+    width: 100%;
+  }
+
+  section#convite form {
+    display: block;
+    text-align: center;
+    width: 80%;
+  }
+
 }
