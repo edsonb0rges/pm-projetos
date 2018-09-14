@@ -1,0 +1,76 @@
+body {
+  background-color: #e6e9ed;
+  font-family: 'Lato', sans-serif;
+}
+
+aside {
+  background-color: #3a3c40;
+  text-align: center;
+  padding: 60px !important;
+  padding-top: 80px !important;
+}
+
+aside h1 {
+  color: #f5a623;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5em;/*O "em" é uma unidade de medida relativa, vinculada ao body.
+                    No nosso caso, por estarmos utilizando o framework Bulma, que por padrão utiliza font-size de 16px no body, a font-size de 1.5em no aside h1 ficará com 24px.*/
+}
+
+aside h2 {
+  color:#fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+aside .button {
+  background-color: #f9a640 !important;
+  text-transform: uppercase;
+  font-size: 0.875em !important;
+  padding: 20px 30px 20px 30px;
+  font-weight: 700;
+  margin-top: 10px;
+  box-shadow: 1px 3px 0px 0px rgba(245,166,35, 0.6);
+}
+
+aside .redes-sociais {
+  margin-top: 20px;
+}
+
+aside .redes-sociais li {
+  display: inline;
+  margin-right: 5px;
+  border: 0;
+}
+
+aside .redes-sociais li a {
+  color: #fff;
+  font-size: 25px;
+}
+
+aside .habilidades {
+  text-align: left;
+  margin-top: 30px;
+}
+
+aside .habilidades h3 {
+  color: #eeeeee;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+aside .habilidades small {
+  color: #8fa4af;
+  font-size: 0.750em;
+}
+
+aside .habilidades progress {
+  margin-bottom: 5px;
+}
+
+aside .habilidades progress::-webkit-progress-value {
+  margin-bottom: 5px;
+  background-color: #f1b668 !important;
+}
